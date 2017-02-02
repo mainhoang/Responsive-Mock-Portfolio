@@ -268,6 +268,10 @@ footer {
 		margin: 29px 25px 0 0;
 	}
 
+	/*body {
+		background-image: url("../images/980-portfolio.jpg");
+	}*/
+
 	nav {
 		width: 726px;
 	}
@@ -286,6 +290,26 @@ footer {
 
 	.connect-wrapper {
 		margin: 30px 29px 38px 29px;
+	}
+
+	.gallery {
+    	margin: 15px 0 45px 0;
+	}
+
+	.gallery li {
+		width: 360px;
+		height: 270px;
+		margin: 25px 0;
+	}
+
+	.gallery li:nth-child(2), .gallery li:nth-child(4){
+		float: none;
+	}
+
+	.gallery h3 {
+		top: 73.8%;
+    	padding: 19px;
+    	font-size: 1.4em;
 	}
 
 }
