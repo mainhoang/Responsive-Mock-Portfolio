@@ -81,16 +81,17 @@ header {
 	background: #fff;
 	border-bottom: 2px solid #ccc;
 	margin-bottom: 38px;
+	overflow: auto;
 }
 
 nav {
-	width: 960px;
+	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 main {
-	width: 960px;
+	max-width: 960px;
 	min-height: calc(100vh - 270px);
 	margin-left: auto;
 	margin-right: auto;
@@ -158,6 +159,7 @@ footer {
 .navLinks {
 	float: right;
 	margin: 33px 0;
+	overflow: auto;
 }
 
 .navLinks li {
@@ -171,7 +173,7 @@ footer {
 	border-right: 1px solid #ddd;
 }
 
-.navLinks li:nth-child(3) {
+.navLinks li:last-child {
 	padding-right: 0;
 }
 
@@ -262,18 +264,22 @@ footer {
 
 	nav {
 		width: 726px;
+		/*width: 74.1%;*/
 	}
 
 	main {
 		width: 726px;
+		/*width: 74.1%;*/
 	}
 
 	section {
-		width: 420px;
+		/*width: 420px;*/
+		width: 57.8%;
 	}
 
 	aside {
 		width: 268px;
+		/*width: 36.9%;*/
 	}
 
 	.connect-wrapper {
@@ -304,13 +310,14 @@ footer {
 
 @media (max-width: 768px) {
 
-	/*body {
-		background-image: url("../images/768-portfolio.jpg");
-	}*/
-
 	#profile {
 		width: 332px;
 		float: left;
+	}
+
+	main {
+		width: 94.5%;
+		/*width: 74.1%;*/
 	}
 
 	section {
@@ -350,6 +357,43 @@ footer {
 
 @media (max-width: 640px) {
   
+	/*body {
+		background-image: url("../images/640-index.jpg");
+	}*/
+
+	#profile {
+		width: 100%;
+		float: none;
+	}
+
+	main {
+		width: 93.7%;
+	}
+
+	header {
+		margin-bottom: 20px;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	.name {
+		display: block;
+		text-align: center;
+	}
+	.navLinks {
+		float: none;
+		margin: 23px 0;
+		text-align: center;
+	}
+
+	.navLinks li {
+		float: none;
+		width: 30%;	
+		padding: 0;
+	}
+
 }
 
 
