@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-
+UCLA Extension Bootcamp - Homework # 2.1
 # Week 2 Assignment
 
 ### Overview
