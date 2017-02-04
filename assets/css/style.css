@@ -1,8 +1,4 @@
 
-* {
-	box-sizing:border-box;
-}
-
 #profile {
 	width: 200px;
 	height: auto;
@@ -77,6 +73,9 @@ body {
 }
 
 header {
+	position: fixed;
+	top: 0;
+	z-index: 5;
 	width: 100%;
 	background: #fff;
 	border-bottom: 2px solid #ccc;
@@ -92,9 +91,10 @@ nav {
 
 main {
 	max-width: 960px;
-	min-height: calc(100vh - 270px);
+	min-height: calc(100vh - 140px);
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 130px;
 	overflow: auto;
 }
 
@@ -112,10 +112,6 @@ aside {
 	border: 1px solid #ddd;
 }
 
-ul {
-	
-}
-
 li {
 	display: inline-block;
 }
@@ -123,10 +119,6 @@ li {
 form {
 	font-size: 1.125em;
 	margin: 27px 0 0 0;
-}
-
-label {
-	
 }
 
 input, textarea {
@@ -358,9 +350,11 @@ footer {
 
 	main {
 		width: 93.7%;
+		padding-top: 0;
 	}
 
 	header {
+		position: static;
 		margin-bottom: 20px;
 	}
 
