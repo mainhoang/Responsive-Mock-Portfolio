@@ -46,21 +46,6 @@ You will be fully capable of doing this homework by the end of Saturday's class.
 
 5. **Protip**: Use the Chrome extensions [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) and [Browser Width](https://chrome.google.com/webstore/detail/browser-width/mlnegepkjlccabakompdmbcmdieaideh) to see the browser dimensions in Chrome.
 
-### Assignment Two Instructions (Bootstrap)
-
-1. Inside your `Bootstrap-Portfolio` repo, create `index.html`, `portfolio.html` and `contact.html`.
-
-2. Use Bootstrap CSS to recreate the portfolio you built last week. Your Bootstrap solution should *not* make explicit use of media queries.
-
-3. Create the `index.php` and `composer.json` inside `Bootstrap-Portfolio`
-  * Make sure you have `<?php include_once("yourFileNameHere"); ?>` and `{}` for those files.
-
-4. Deploy your new Bootstrap-powered portfolio to Heroku. Remember:
-  * `heroku login`
-  * `heroku create`
-  * `git push heroku master`
-
-5. Alternatively, deploy your new portfolio using the `gh_pages` branch of your repository.
 
 ### Submitting Your Work on [BootcampSpot.com](http://bootcampspot.com/)
 
