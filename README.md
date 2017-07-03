@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# Responsive-Mock-Portfolio
 
 Same as the Mock-Portfolio. This time, I made it responsive using media queries. 
 
